@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- First section (saffron color) -->
+    <item android:id="@android:id/background">
+        <clip>
+            <shape>
+                <solid android:color="#FF9933" /> <!-- Replace with saffron color value -->
+            </shape>
+        </clip>
+    </item>
+    <!-- Second section (white color) -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="#FFFFFF" /> <!-- Replace with white color value -->
+            </shape>
+        </clip>
+    </item>
+    <!-- Third section (green color) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#00FF00" /> <!-- Replace with green color value -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>
